@@ -12,7 +12,11 @@ elif operator=="-":
     print(f"substration of num1 - num2 :{num1-num2}")
 
 elif operator=="*":
-    print("mltiplication of the num1 *num2:{num*num2}")
+    print(f"multiplication of the num1 * num2: {num1 * num2}")
+
+elif operator=="/":
+    print(f"division num1/num2:{num1/num2}")
 
 else:
-    print(f"division num1/num2:{num1/num2}")
+    print("invalid operator")
+    

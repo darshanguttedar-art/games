@@ -6,16 +6,20 @@ num2=float(input("enter the 2nd number:"))
 
 
 if operator=="+":
-    print(f"num1 + num2={num1+num2}")
+    result = num1 + num2
+    print(f"num1 + num2=round({result}, 2)")
 
 elif operator=="-":
-    print(f"substration of num1 - num2 :{num1-num2}")
+    result = num1 - num2
+    print(f"substration of num1 - num2 :{round(result, 2)}")
 
 elif operator=="*":
-    print(f"multiplication of the num1 * num2: {num1 * num2}")
+    result = num1 * num2
+    print(f"multiplication of the num1 * num2:{round(result, 2)}")
 
 elif operator=="/":
-    print(f"division num1/num2:{num1/num2}")
+    result = num1 / num2
+    print(f"division num1/num2: {round(result, 2)}")
 
 else:
     print("invalid operator")
